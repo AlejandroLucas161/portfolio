@@ -1,7 +1,8 @@
 import { FunctionComponent } from "react";
+import { Navbar } from "./components";
 
 const App: FunctionComponent = () => {
-  return <div>App</div>;
+  return <Navbar />;
 };
 
 export default App;
