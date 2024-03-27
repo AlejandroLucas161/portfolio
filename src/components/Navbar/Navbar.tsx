@@ -16,11 +16,11 @@ const NavbarItems: Array<NavbarItem> = [
 
 const Navbar: FunctionComponent = () => {
   return (
-    <nav className="fixed w-screen border-b-[0.5px] border-b-darkerblue border-opacity-30">
-      <ul className="h-fit flex gap-10 text-[18px] justify-center">
+    <nav className="sticky top-0 w-screen border-b-[0.5px] bg-white border-b-darkerblue border-opacity-30 z-10">
+      <ul className="h-[70px] flex gap-10 text-[18px] justify-center items-center">
         {NavbarItems.map(({ name }, idx) => (
-          <Link key={idx} to={name} spy smooth>
-            <li className="my-4 py-2 border-b border-opacity-0 border-b-darkerblue hover:border-opacity-100 transition duration-300 hover:text-darkerblue cursor-pointer">
+          <Link key={idx} to={name} spy smooth className="h-fit">
+            <li className="py-1 border-b border-opacity-0 border-b-darkerblue hover:border-opacity-100 transition duration-300 hover:text-darkerblue cursor-pointer uppercase text-sm">
               {name}
             </li>
           </Link>

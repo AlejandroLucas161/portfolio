@@ -1,8 +1,14 @@
 import { FunctionComponent } from "react";
-import { Navbar } from "./components";
+import { Banner, Navbar } from "./components";
 
 const App: FunctionComponent = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+
+      <Banner />
+    </>
+  );
 };
 
 export default App;
