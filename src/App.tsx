@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { Banner, Navbar } from "./components";
+import { About, Banner, Navbar } from "./components";
 
 const App: FunctionComponent = () => {
   return (
@@ -7,6 +7,8 @@ const App: FunctionComponent = () => {
       <Navbar />
 
       <Banner />
+
+      <About />
     </>
   );
 };

@@ -19,3 +19,17 @@
 body {
   background-color: #fafafa;
 }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(141, 163, 184, 0.8);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fafafa;
+}
+
+::-webkit-scrollbar {
+  scrollbar-gutter: stable both-edges;
+  width: 8px;
+}
