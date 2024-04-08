@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { About, Banner, Navbar, Skills } from "./components";
+import { About, Banner, Experience, Navbar, Skills } from "./components";
 
 const App: FunctionComponent = () => {
   return (
@@ -11,6 +11,8 @@ const App: FunctionComponent = () => {
       <About />
 
       <Skills />
+
+      <Experience />
     </>
   );
 };
