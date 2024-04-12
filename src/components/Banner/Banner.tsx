@@ -3,7 +3,10 @@ import bannerImage from "../../assets/banner-image.png";
 
 const Banner: FunctionComponent = () => {
   return (
-    <div className="h-[calc(100vh-71px)] max-h-[823px] xl:mx-[60px] mx-[30px] relative flex items-center">
+    <div
+      className="h-[calc(100vh-71px)] max-h-[823px] xl:mx-[60px] mx-[30px] relative flex items-center"
+      id="home"
+    >
       <div className="w-1/2 flex gap-4 flex-col items-start">
         <h4 className="2xl:text-xl lg:text-base text-sm">
           Hi there! I'm Alejandro Lucas

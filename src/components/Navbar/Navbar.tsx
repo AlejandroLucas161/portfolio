@@ -1,11 +1,13 @@
 import { FunctionComponent } from "react";
 import { Link } from "react-scroll";
+import "./styles.css";
 
 interface NavbarItem {
   name: string;
 }
 
 const NavbarItems: Array<NavbarItem> = [
+  { name: "Home" },
   { name: "About" },
   { name: "Skills" },
   { name: "Experience" },
@@ -21,13 +23,14 @@ const Navbar: FunctionComponent = () => {
         {NavbarItems.map(({ name }, idx) => (
           <Link
             key={idx}
-            to={name.toLowerCase()}
             spy
             smooth
-            className="h-fit"
             offset={-70}
+            to={name.toLowerCase()}
+            className="h-fit border-b border-opacity-0 border-b-darkerblue hover:border-opacity-100 transition duration-300 hover:text-darkerblue"
+            activeClass="active-link"
           >
-            <li className="py-1 border-b border-opacity-0 border-b-darkerblue hover:border-opacity-100 transition duration-300 hover:text-darkerblue cursor-pointer uppercase text-sm">
+            <li className="py-1 hover:text-darkerblue cursor-pointer uppercase text-sm">
               {name}
             </li>
           </Link>
