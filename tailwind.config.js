@@ -8,6 +8,7 @@ export default {
       lighterblue: "#8da3b8",
       lighterbluegray: "#b1c0cb",
       lighterbluesections: "rgba(177, 192, 203,0.15)",
+      footericonsblue: "#35495e",
       white: "#fafafa",
     },
   },

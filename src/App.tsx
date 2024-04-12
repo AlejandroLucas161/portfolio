@@ -7,6 +7,7 @@ import {
   Skills,
   References,
   Work,
+  Contact,
 } from "./components";
 
 const App: FunctionComponent = () => {
@@ -25,6 +26,8 @@ const App: FunctionComponent = () => {
       <Work />
 
       <References />
+
+      <Contact />
     </>
   );
 };
