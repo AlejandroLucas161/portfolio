@@ -10,7 +10,7 @@ const NavbarItems: Array<NavbarItem> = [
   { name: "Skills" },
   { name: "Experience" },
   { name: "Work" },
-  { name: "Testimonials" },
+  { name: "References" },
   { name: "Contact" },
 ];
 
